@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Development Journey</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap');
+
+        :root {
+            --bg-color: #10101a;
+            --primary-color: #00A9FF; /* Tech Blue */
+            --secondary-color: #007bff;
+            --challenge-color: #FF6700; /* Warning Orange */
+            --text-color: #e0e0e0;
+            --header-color: #ffffff;
+            --timeline-line: #333;
+            --card-bg: #1a1a2e;
+            --border-color: #333;
+            --font-family: 'Roboto Mono', monospace;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .header h1 {
+            font-size: 2.8rem;
+            color: var(--header-color);
+            margin-bottom: 10px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 0 0 15px rgba(0, 169, 255, 0.5);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            color: #aaa;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background-color: var(--timeline-line);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+            border-radius: 2px;
+        }
+
+        .container {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+            box-sizing: border-box;
+            /* Animation */
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        
+        .container.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .container::after {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            right: -10px;
+            background-color: var(--bg-color);
+            border: 4px solid var(--primary-color);
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+            transition: background-color 0.3s ease;
+        }
+
+        .left { left: 0; }
+        .right { left: 50%; }
+
+        .left::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            right: 30px;
+            border: medium solid var(--border-color);
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent var(--border-color);
+        }
+
+        .right::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            left: 30px;
+            border: medium solid var(--border-color);
+            border-width: 10px 10px 10px 0;
+            border-color: transparent var(--border-color) transparent transparent;
+        }
+
+        .right::after { left: -10px; }
+
+        .content {
+            padding: 20px 30px;
+            background: linear-gradient(145deg, var(--card-bg), #141424);
+            position: relative;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .container:hover { cursor: default; }
+
+        .container.show:hover .content {
+            transform: scale(1.03);
+            box-shadow: 0 0 25px rgba(0, 169, 255, 0.4);
+            border: 1px solid var(--secondary-color);
+        }
+
+        .container.show:hover::after {
+             background-color: var(--primary-color);
+        }
+
+        .content h2 {
+            margin-top: 0;
+            color: var(--header-color);
+            font-size: 1.5rem;
+            border-bottom: 2px solid var(--primary-color);
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        .content h3 {
+            color: var(--text-color);
+            font-size: 1rem;
+            font-weight: 700;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .content ul {
+            padding-left: 20px;
+            margin: 0 0 15px 0;
+        }
+
+        .content li {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin-bottom: 10px;
+        }
+        
+        .challenge {
+            background-color: rgba(255, 103, 0, 0.05);
+            border: 1px solid var(--challenge-color);
+            border-left-width: 4px;
+            border-radius: 4px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        
+        .challenge h4 {
+            margin: 0 0 10px 0;
+            color: var(--challenge-color);
+            font-weight: 700;
+            font-size: 1rem;
+        }
+        
+        .challenge p {
+            margin: 0;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: #ddd;
+        }
+        
+        @media screen and (max-width: 800px) {
+            .timeline::after { left: 31px; }
+            .container { width: 100%; padding-left: 70px; padding-right: 25px; }
+            .container::before { left: 60px; border-width: 10px 10px 10px 0; border-color: transparent var(--border-color) transparent transparent; }
+            .left::after, .right::after { left: 21px; }
+            .right { left: 0%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Our Development Journey</h1>
+    <p>A timeline of our project's progress, including the tough challenges we solved along the way.</p>
+</div>
+
+<div class="timeline">
+    <div class="container left">
+        <div class="content">
+            <h2>Stage 1: The "Robotics Gym"</h2>
+            <h3>What We Did:</h3>
+            <ul>
+                <li>Created the foundational simulation environment in Godot.</li>
+                <li>Built a 3D world with a ground plane, uneven terrain blocks, and dynamic objects.</li>
+                <li>Established the core physics properties (gravity, friction) for the world.</li>
+            </ul>
+            <div class="challenge">
+                <h4>Challenge We Faced: Editor vs. Runtime View</h4>
+                <p>Objects appeared large and correct in the editor's "Perspective" view but were tiny specks when the game was run. We solved this by learning to ignore the editor camera and instead use the **"Preview"** button to correctly position the scene's actual **`Camera3D`** node.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container right">
+        <div class="content">
+            <h2>Stage 2: Robot Armature</h2>
+            <h3>What We Did:</h3>
+            <ul>
+                <li>Built a simple, articulated robot arm using `RigidBody3D` nodes for the "limbs".</li>
+                <li>Used a `HingeJoint3D` to act as a shoulder "motor".</li>
+                <li>Correctly parented the arm to a `StaticBody3D` base.</li>
+            </ul>
+            <div class="challenge">
+                <h4>Challenge We Faced: Mismatched Shapes</h4>
+                <p>When we changed an object's shape (e.g., from a box to a sphere), it still *looked* like a box in the game. We learned the critical Godot rule: you must change both the visual **`MeshInstance3D`** (the "paint") and the physics **`CollisionShape3D`** (the "physics") to match.</p>
+            </div>
+        </div>
+    </div>
+
+     <div class="container left">
+        <div class="content">
+            <h2>Stage 3: One-Way Control (Godot)</h2>
+            <h3>What We Did:</h3>
+            <ul>
+                <li>Attached a GDScript to the robot's base.</li>
+                <li>Wrote code in `_physics_process` to control the `HingeJoint3D` motor.</li>
+                <li>Successfully made the arm move by pressing the 'Up' and 'Down' arrow keys.</li>
+            </ul>
+            <div class="challenge">
+                <h4>Challenge We Faced: Godot 3 vs. Godot 4 Syntax</h4>
+                <p>The code kept crashing with errors like "Cannot find member PARAM...". We discovered we were using outdated Godot 3 functions (`set_param`). We fixed this by updating our code to the modern Godot 4 syntax, which uses direct property access (e.g., `shoulder_joint.motor_target_velocity = 3.0`).</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container right">
+        <div class="content">
+            <h2>Stage 4: Python-Godot Bridge (UDP)</h2>
+            <h3>What We Did:</h3>
+            <ul>
+                <li>Set up a `UDPServer` in Godot to listen for commands.</li>
+                <li>Wrote a Python script to act as a "client," sending commands via UDP.</li>
+            </ul>
+            <div class="challenge">
+                <h4>Challenge We Faced: The Silent Network</h4>
+                <p>The Python script was sending packets and the Godot server was listening, but *nothing* was being received. After testing with a minimal Python receiver, we proved the OS was working. The problem was isolated to a **system firewall** that was silently blocking Godot from receiving UDP packets, even on localhost.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container left">
+        <div class="content">
+            <h2>Stage 5: Two-Way Control (TCP)</h2>
+            <h3>What We Did:</h3>
+            <ul>
+                <li>Rebuilt the communication bridge using the more reliable **TCP** protocol.</li>
+                <li>Godot was upgraded to a `TCPServer` and Python to a `TCPClient`.</li>
+                <li>Implemented the two-way loop: Python sends a command, and Godot sends back its state (arm angle, target position).</li>
+            </ul>
+            <div class="challenge">
+                <h4>Challenge We Faced: Corrupted Data & "UTF-8" Errors</h4>
+                <p>Python kept crashing with a `'utf-8' codec` error, causing a disconnect loop. We traced this to Godot's `put_string()` function sending a 4-byte length prefix that Python read as garbage. We fixed this permanently by using `put_data()` and `to_utf8_buffer()` to send *only* the raw, clean text data.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container right">
+        <div class="content">
+            <h2>Stage 6: Final Debugging</h2>
+            <h3>What We Did:</h3>
+            <ul>
+                <li>The two-way TCP connection was stable, but the motor *still* wouldn't move from network commands.</li>
+                <li>We completed the final debugging steps to create a fully functional pipeline.</li>
+            </ul>
+            <div class="challenge">
+                <h4>Challenge We Faced: The "Sleeping" Robot</h4>
+                <p>Our final, most confusing problem. The arm moved with keyboard input but ignored network commands, even though the print statements showed the data was correct. The breakthrough was discovering that the robot's `RigidBody3D` was going to **"sleep"** to save CPU. By unchecking the **`Can Sleep`** property, the robot stayed "awake" and finally responded to all network commands perfectly.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container left">
+        <div class="content">
+            <h2>Stage 7: Final Debugging</h2>
+            <h3>What We Did:</h3>
+            <ul>
+                <li>The two-way TCP connection was stable, but the motor *still* wouldn't move from network commands.</li>
+                <li>We completed the final debugging steps to create a fully functional pipeline.</li>
+            </ul>
+            <div class="challenge">
+                <h4>Challenge We Faced: The "Sleeping" Robot</h4>
+                <p>Our final, most confusing problem. The arm moved with keyboard input but ignored network commands, even though the print statements showed the data was correct. The breakthrough was discovering that the robot's `RigidBody3D` was going to **"sleep"** to save CPU. By unchecking the **`Can Sleep`** property, the robot stayed "awake" and finally responded to all network commands perfectly.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const elementsToAnimate = document.querySelectorAll('.container');
+
+        const observerOptions = {
+            root: null,
+            rootMargin: '0px',
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        elementsToAnimate.forEach(el => {
+            observer.observe(el);
+        });
+    });
+</script>
+
+</body>
+</html>
