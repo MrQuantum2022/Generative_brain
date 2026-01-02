@@ -1,0 +1,772 @@
+Starting training from scratch with 39-dim architecture.
+Connected to Godot at 127.0.0.1:4242
+Ep: 1 | Steps: 142 | Total Reward: -4365.88 | Avg: -30.7456
+Ep: 2 | Steps: 1000 | Total Reward: -138958.59 | Avg: -138.9586
+Ep: 3 | Steps: 1000 | Total Reward: -135626.64 | Avg: -135.6266
+Ep: 4 | Steps: 334 | Total Reward: -50188.92 | Avg: -150.2662
+Ep: 5 | Steps: 4 | Total Reward: -121.66 | Avg: -30.4147
+Ep: 6 | Steps: 13 | Total Reward: -151.07 | Avg: -11.6210
+Ep: 7 | Steps: 15 | Total Reward: -161.29 | Avg: -10.7530
+Ep: 8 | Steps: 1000 | Total Reward: -123749.03 | Avg: -123.7490
+Ep: 9 | Steps: 120 | Total Reward: -10349.79 | Avg: -86.2482
+Ep: 10 | Steps: 79 | Total Reward: -375.76 | Avg: -4.7564
+Ep: 11 | Steps: 54 | Total Reward: -293.43 | Avg: -5.4338
+Ep: 12 | Steps: 86 | Total Reward: -396.11 | Avg: -4.6059
+Ep: 13 | Steps: 4 | Total Reward: -117.74 | Avg: -29.4348
+Ep: 14 | Steps: 64 | Total Reward: -324.20 | Avg: -5.0656
+Ep: 15 | Steps: 39 | Total Reward: -237.05 | Avg: -6.0781
+Ep: 16 | Steps: 15 | Total Reward: -155.69 | Avg: -10.3796
+
+--- Updating Brain (Step 4000) ---
+Ep: 17 | Steps: 32 | Total Reward: -221.22 | Avg: -6.9131
+Ep: 18 | Steps: 13 | Total Reward: -150.05 | Avg: -11.5420
+Ep: 19 | Steps: 80 | Total Reward: -1798.20 | Avg: -22.4776
+Ep: 20 | Steps: 11 | Total Reward: -138.11 | Avg: -12.5555
+Ep: 21 | Steps: 257 | Total Reward: -24129.68 | Avg: -93.8898
+Ep: 22 | Steps: 685 | Total Reward: -18584.30 | Avg: -27.1304
+Ep: 23 | Steps: 41 | Total Reward: -6023.71 | Avg: -146.9198
+Ep: 24 | Steps: 103 | Total Reward: -461.81 | Avg: -4.4836
+Ep: 25 | Steps: 29 | Total Reward: -2073.04 | Avg: -71.4841
+Ep: 26 | Steps: 1000 | Total Reward: -124083.58 | Avg: -124.0836
+Ep: 27 | Steps: 1000 | Total Reward: -125621.54 | Avg: -125.6215
+
+--- Updating Brain (Step 8000) ---
+Ep: 28 | Steps: 1000 | Total Reward: -139375.06 | Avg: -139.3751
+Ep: 29 | Steps: 1000 | Total Reward: -166971.64 | Avg: -166.9716
+Ep: 30 | Steps: 1000 | Total Reward: -131499.91 | Avg: -131.4999
+Ep: 31 | Steps: 614 | Total Reward: -81676.60 | Avg: -133.0238
+Ep: 32 | Steps: 76 | Total Reward: -2969.73 | Avg: -39.0753
+Ep: 33 | Steps: 111 | Total Reward: -8096.81 | Avg: -72.9443
+Ep: 34 | Steps: 36 | Total Reward: -221.03 | Avg: -6.1399
+Ep: 35 | Steps: 73 | Total Reward: -339.58 | Avg: -4.6518
+Ep: 36 | Steps: 21 | Total Reward: -159.10 | Avg: -7.5761
+Ep: 37 | Steps: 9 | Total Reward: -120.05 | Avg: -13.3394
+Ep: 38 | Steps: 9 | Total Reward: -124.20 | Avg: -13.8000
+Ep: 39 | Steps: 5 | Total Reward: -109.76 | Avg: -21.9521
+Ep: 40 | Steps: 3 | Total Reward: -104.71 | Avg: -34.9036
+
+--- Updating Brain (Step 12000) ---
+Ep: 41 | Steps: 1000 | Total Reward: -127195.01 | Avg: -127.1950
+Ep: 42 | Steps: 1000 | Total Reward: -68640.42 | Avg: -68.6404
+Ep: 43 | Steps: 423 | Total Reward: -40724.23 | Avg: -96.2748
+Ep: 44 | Steps: 31 | Total Reward: -1628.62 | Avg: -52.5363
+Ep: 45 | Steps: 180 | Total Reward: -20519.74 | Avg: -113.9986
+Ep: 46 | Steps: 96 | Total Reward: -10086.08 | Avg: -105.0633
+Ep: 47 | Steps: 989 | Total Reward: -149029.23 | Avg: -150.6868
+Ep: 48 | Steps: 11 | Total Reward: -717.43 | Avg: -65.2211
+Ep: 49 | Steps: 9 | Total Reward: -132.58 | Avg: -14.7311
+Ep: 50 | Steps: 1000 | Total Reward: -140327.67 | Avg: -140.3277
+Ep: 51 | Steps: 11 | Total Reward: -137.88 | Avg: -12.5348
+Ep: 52 | Steps: 30 | Total Reward: -220.57 | Avg: -7.3523
+
+--- Updating Brain (Step 16000) ---
+Ep: 53 | Steps: 44 | Total Reward: -263.82 | Avg: -5.9960
+Ep: 54 | Steps: 31 | Total Reward: -218.57 | Avg: -7.0508
+Ep: 55 | Steps: 22 | Total Reward: -186.57 | Avg: -8.4804
+Ep: 56 | Steps: 10 | Total Reward: -145.07 | Avg: -14.5073
+Ep: 57 | Steps: 17 | Total Reward: -168.91 | Avg: -9.9359
+Ep: 58 | Steps: 46 | Total Reward: -263.54 | Avg: -5.7291
+Ep: 59 | Steps: 9 | Total Reward: -138.88 | Avg: -15.4316
+Ep: 60 | Steps: 14 | Total Reward: -155.13 | Avg: -11.0804
+Ep: 61 | Steps: 1000 | Total Reward: -195596.45 | Avg: -195.5965
+Ep: 62 | Steps: 1000 | Total Reward: -186579.11 | Avg: -186.5791
+Ep: 63 | Steps: 722 | Total Reward: -83698.50 | Avg: -115.9259
+Ep: 64 | Steps: 8 | Total Reward: -409.40 | Avg: -51.1745
+Ep: 65 | Steps: 10 | Total Reward: -140.20 | Avg: -14.0201
+Ep: 66 | Steps: 222 | Total Reward: -20224.12 | Avg: -91.0996
+Ep: 67 | Steps: 430 | Total Reward: -58866.29 | Avg: -136.8984
+Ep: 68 | Steps: 10 | Total Reward: -145.15 | Avg: -14.5149
+Ep: 69 | Steps: 106 | Total Reward: -479.82 | Avg: -4.5266
+Ep: 70 | Steps: 39 | Total Reward: -251.23 | Avg: -6.4418
+Ep: 71 | Steps: 62 | Total Reward: -321.03 | Avg: -5.1779
+Ep: 72 | Steps: 109 | Total Reward: -484.76 | Avg: -4.4473
+Ep: 73 | Steps: 54 | Total Reward: -303.09 | Avg: -5.6127
+
+--- Updating Brain (Step 20000) ---
+Ep: 74 | Steps: 158 | Total Reward: -23072.05 | Avg: -146.0257
+Ep: 75 | Steps: 13 | Total Reward: -1856.35 | Avg: -142.7959
+Ep: 76 | Steps: 59 | Total Reward: -7282.28 | Avg: -123.4284
+Ep: 77 | Steps: 23 | Total Reward: -3557.59 | Avg: -154.6779
+Ep: 78 | Steps: 9 | Total Reward: -137.65 | Avg: -15.2941
+Ep: 79 | Steps: 36 | Total Reward: -233.69 | Avg: -6.4913
+Ep: 80 | Steps: 13 | Total Reward: -153.84 | Avg: -11.8339
+Ep: 81 | Steps: 793 | Total Reward: -89742.98 | Avg: -113.1689
+Ep: 82 | Steps: 486 | Total Reward: -74700.89 | Avg: -153.7055
+Ep: 83 | Steps: 61 | Total Reward: -5525.74 | Avg: -90.5860
+Ep: 84 | Steps: 91 | Total Reward: -433.87 | Avg: -4.7678
+Ep: 85 | Steps: 190 | Total Reward: -9399.38 | Avg: -49.4704
+Ep: 86 | Steps: 12 | Total Reward: -170.69 | Avg: -14.2243
+Ep: 87 | Steps: 14 | Total Reward: -172.16 | Avg: -12.2970
+Ep: 88 | Steps: 21 | Total Reward: -195.21 | Avg: -9.2955
+Ep: 89 | Steps: 1000 | Total Reward: -58413.21 | Avg: -58.4132
+Ep: 90 | Steps: 276 | Total Reward: -28332.82 | Avg: -102.6552
+Ep: 91 | Steps: 361 | Total Reward: -42579.25 | Avg: -117.9481
+Ep: 92 | Steps: 67 | Total Reward: -10088.13 | Avg: -150.5691
+
+--- Updating Brain (Step 24000) ---
+Ep: 93 | Steps: 1000 | Total Reward: -96746.55 | Avg: -96.7465
+Ep: 94 | Steps: 1000 | Total Reward: -159969.64 | Avg: -159.9696
+Ep: 95 | Steps: 1000 | Total Reward: -118133.34 | Avg: -118.1333
+Ep: 96 | Steps: 433 | Total Reward: -56820.89 | Avg: -131.2261
+
+--- Updating Brain (Step 28000) ---
+Ep: 97 | Steps: 1000 | Total Reward: -166187.52 | Avg: -166.1875
+Ep: 98 | Steps: 201 | Total Reward: -798.55 | Avg: -3.9729
+Ep: 99 | Steps: 1000 | Total Reward: -81861.48 | Avg: -81.8615
+Ep: 100 | Steps: 1000 | Total Reward: -159110.42 | Avg: -159.1104
+Ep: 101 | Steps: 29 | Total Reward: -203.94 | Avg: -7.0322
+Ep: 102 | Steps: 200 | Total Reward: -9675.02 | Avg: -48.3751
+Ep: 103 | Steps: 27 | Total Reward: -256.86 | Avg: -9.5134
+Ep: 104 | Steps: 7 | Total Reward: -177.60 | Avg: -25.3713
+Ep: 105 | Steps: 16 | Total Reward: -207.80 | Avg: -12.9878
+Ep: 106 | Steps: 1000 | Total Reward: -112766.19 | Avg: -112.7662
+
+--- Updating Brain (Step 32000) ---
+Ep: 107 | Steps: 1000 | Total Reward: -46992.50 | Avg: -46.9925
+Ep: 108 | Steps: 1000 | Total Reward: -51111.74 | Avg: -51.1117
+Ep: 109 | Steps: 1000 | Total Reward: -70281.95 | Avg: -70.2819
+Ep: 110 | Steps: 1000 | Total Reward: -94192.37 | Avg: -94.1924
+
+--- Updating Brain (Step 36000) ---
+Ep: 111 | Steps: 1000 | Total Reward: -87311.44 | Avg: -87.3114
+Ep: 112 | Steps: 1000 | Total Reward: -26316.45 | Avg: -26.3164
+Ep: 113 | Steps: 1000 | Total Reward: -42744.41 | Avg: -42.7444
+Ep: 114 | Steps: 1000 | Total Reward: -43862.60 | Avg: -43.8626
+
+--- Updating Brain (Step 40000) ---
+Ep: 115 | Steps: 1000 | Total Reward: -19152.85 | Avg: -19.1529
+Ep: 116 | Steps: 1000 | Total Reward: -27509.02 | Avg: -27.5090
+Ep: 117 | Steps: 1000 | Total Reward: -60881.07 | Avg: -60.8811
+Ep: 118 | Steps: 1000 | Total Reward: -16424.79 | Avg: -16.4248
+
+--- Updating Brain (Step 44000) ---
+Ep: 119 | Steps: 1000 | Total Reward: -19587.04 | Avg: -19.5870
+Ep: 120 | Steps: 1000 | Total Reward: -89864.66 | Avg: -89.8647
+Ep: 121 | Steps: 1000 | Total Reward: -21871.77 | Avg: -21.8718
+Ep: 122 | Steps: 1000 | Total Reward: -15097.67 | Avg: -15.0977
+
+--- Updating Brain (Step 48000) ---
+Ep: 123 | Steps: 1000 | Total Reward: -29131.85 | Avg: -29.1319
+Ep: 124 | Steps: 1000 | Total Reward: -78633.83 | Avg: -78.6338
+Ep: 125 | Steps: 1000 | Total Reward: -30243.55 | Avg: -30.2436
+Ep: 126 | Steps: 1000 | Total Reward: -27308.11 | Avg: -27.3081
+
+--- Updating Brain (Step 52000) ---
+Ep: 127 | Steps: 1000 | Total Reward: -21896.07 | Avg: -21.8961
+Ep: 128 | Steps: 1000 | Total Reward: -14524.63 | Avg: -14.5246
+Ep: 129 | Steps: 1000 | Total Reward: -39678.70 | Avg: -39.6787
+Ep: 130 | Steps: 1000 | Total Reward: -23232.83 | Avg: -23.2328
+
+--- Updating Brain (Step 56000) ---
+Ep: 131 | Steps: 1000 | Total Reward: -13969.60 | Avg: -13.9696
+Ep: 132 | Steps: 1000 | Total Reward: -23044.60 | Avg: -23.0446
+Ep: 133 | Steps: 1000 | Total Reward: -20893.68 | Avg: -20.8937
+Ep: 134 | Steps: 1000 | Total Reward: -30694.62 | Avg: -30.6946
+
+--- Updating Brain (Step 60000) ---
+Ep: 135 | Steps: 1000 | Total Reward: -28326.34 | Avg: -28.3263
+Ep: 136 | Steps: 1000 | Total Reward: -13422.58 | Avg: -13.4226
+Ep: 137 | Steps: 1000 | Total Reward: -12931.25 | Avg: -12.9313
+Ep: 138 | Steps: 1000 | Total Reward: -14710.12 | Avg: -14.7101
+
+--- Updating Brain (Step 64000) ---
+Ep: 139 | Steps: 1000 | Total Reward: -19653.57 | Avg: -19.6536
+Ep: 140 | Steps: 1000 | Total Reward: -15478.73 | Avg: -15.4787
+Ep: 141 | Steps: 1000 | Total Reward: -20894.87 | Avg: -20.8949
+Ep: 142 | Steps: 1000 | Total Reward: -32617.59 | Avg: -32.6176
+
+--- Updating Brain (Step 68000) ---
+Ep: 143 | Steps: 1000 | Total Reward: -17233.80 | Avg: -17.2338
+Ep: 144 | Steps: 1000 | Total Reward: -21951.21 | Avg: -21.9512
+Ep: 145 | Steps: 1000 | Total Reward: -38062.29 | Avg: -38.0623
+Ep: 146 | Steps: 1000 | Total Reward: -16646.81 | Avg: -16.6468
+
+--- Updating Brain (Step 72000) ---
+Ep: 147 | Steps: 1000 | Total Reward: -14977.86 | Avg: -14.9779
+Ep: 148 | Steps: 1000 | Total Reward: -17067.21 | Avg: -17.0672
+Ep: 149 | Steps: 1000 | Total Reward: -29811.16 | Avg: -29.8112
+Ep: 150 | Steps: 1000 | Total Reward: -26112.36 | Avg: -26.1124
+Ep: 151 | Steps: 404 | Total Reward: -41648.03 | Avg: -103.0892
+
+--- Updating Brain (Step 76000) ---
+Ep: 152 | Steps: 1000 | Total Reward: -50154.11 | Avg: -50.1541
+Ep: 153 | Steps: 1000 | Total Reward: -14118.23 | Avg: -14.1182
+Ep: 154 | Steps: 1000 | Total Reward: -13216.22 | Avg: -13.2162
+Ep: 155 | Steps: 1000 | Total Reward: -22419.46 | Avg: -22.4195
+
+--- Updating Brain (Step 80000) ---
+Ep: 156 | Steps: 1000 | Total Reward: -11013.52 | Avg: -11.0135
+Ep: 157 | Steps: 1000 | Total Reward: -13691.55 | Avg: -13.6916
+Ep: 158 | Steps: 1000 | Total Reward: -19777.90 | Avg: -19.7779
+Ep: 159 | Steps: 1000 | Total Reward: -16346.85 | Avg: -16.3468
+
+--- Updating Brain (Step 84000) ---
+Ep: 160 | Steps: 1000 | Total Reward: -18872.73 | Avg: -18.8727
+Ep: 161 | Steps: 1000 | Total Reward: -17567.69 | Avg: -17.5677
+Ep: 162 | Steps: 1000 | Total Reward: -15194.09 | Avg: -15.1941
+Ep: 163 | Steps: 1000 | Total Reward: -36435.37 | Avg: -36.4354
+
+--- Updating Brain (Step 88000) ---
+Ep: 164 | Steps: 1000 | Total Reward: -11968.62 | Avg: -11.9686
+Ep: 165 | Steps: 1000 | Total Reward: -22199.31 | Avg: -22.1993
+Ep: 166 | Steps: 1000 | Total Reward: -10971.96 | Avg: -10.9720
+Ep: 167 | Steps: 1000 | Total Reward: -17779.03 | Avg: -17.7790
+
+--- Updating Brain (Step 92000) ---
+Ep: 168 | Steps: 1000 | Total Reward: -30782.04 | Avg: -30.7820
+Ep: 169 | Steps: 1000 | Total Reward: -35084.79 | Avg: -35.0848
+Ep: 170 | Steps: 1000 | Total Reward: -14604.93 | Avg: -14.6049
+Ep: 171 | Steps: 1000 | Total Reward: -25828.46 | Avg: -25.8285
+
+--- Updating Brain (Step 96000) ---
+Ep: 172 | Steps: 1000 | Total Reward: -34890.15 | Avg: -34.8901
+Ep: 173 | Steps: 1000 | Total Reward: -14606.63 | Avg: -14.6066
+Ep: 174 | Steps: 1000 | Total Reward: -18936.31 | Avg: -18.9363
+Ep: 175 | Steps: 1000 | Total Reward: -39666.88 | Avg: -39.6669
+
+--- Updating Brain (Step 100000) ---
+Ep: 176 | Steps: 1000 | Total Reward: -18114.77 | Avg: -18.1148
+Ep: 177 | Steps: 1000 | Total Reward: -11288.37 | Avg: -11.2884
+Ep: 178 | Steps: 1000 | Total Reward: -14592.68 | Avg: -14.5927
+Ep: 179 | Steps: 1000 | Total Reward: -21277.62 | Avg: -21.2776
+
+--- Updating Brain (Step 104000) ---
+Ep: 180 | Steps: 1000 | Total Reward: -19310.88 | Avg: -19.3109
+Ep: 181 | Steps: 1000 | Total Reward: -15928.59 | Avg: -15.9286
+Ep: 182 | Steps: 1000 | Total Reward: -16312.68 | Avg: -16.3127
+Ep: 183 | Steps: 1000 | Total Reward: -19933.33 | Avg: -19.9333
+
+--- Updating Brain (Step 108000) ---
+Ep: 184 | Steps: 1000 | Total Reward: -25740.70 | Avg: -25.7407
+Ep: 185 | Steps: 1000 | Total Reward: -19127.58 | Avg: -19.1276
+Ep: 186 | Steps: 1000 | Total Reward: -17400.52 | Avg: -17.4005
+Ep: 187 | Steps: 1000 | Total Reward: -16674.75 | Avg: -16.6747
+
+--- Updating Brain (Step 112000) ---
+Ep: 188 | Steps: 487 | Total Reward: -27361.13 | Avg: -56.1830
+Ep: 189 | Steps: 47 | Total Reward: -4555.22 | Avg: -96.9196
+Ep: 190 | Steps: 29 | Total Reward: -2626.60 | Avg: -90.5725
+Ep: 191 | Steps: 19 | Total Reward: -202.16 | Avg: -10.6398
+Ep: 192 | Steps: 60 | Total Reward: -344.57 | Avg: -5.7429
+Ep: 193 | Steps: 32 | Total Reward: -252.58 | Avg: -7.8932
+Ep: 194 | Steps: 1000 | Total Reward: -31793.65 | Avg: -31.7937
+Ep: 195 | Steps: 1000 | Total Reward: -14336.82 | Avg: -14.3368
+Ep: 196 | Steps: 1000 | Total Reward: -16406.91 | Avg: -16.4069
+
+--- Updating Brain (Step 116000) ---
+Ep: 197 | Steps: 1000 | Total Reward: -14665.94 | Avg: -14.6659
+Ep: 198 | Steps: 1000 | Total Reward: -18393.04 | Avg: -18.3930
+Ep: 199 | Steps: 1000 | Total Reward: -19140.83 | Avg: -19.1408
+Ep: 200 | Steps: 1000 | Total Reward: -16492.84 | Avg: -16.4928
+
+--- Updating Brain (Step 120000) ---
+Ep: 201 | Steps: 1000 | Total Reward: -16527.39 | Avg: -16.5274
+Ep: 202 | Steps: 1000 | Total Reward: -11451.53 | Avg: -11.4515
+Ep: 203 | Steps: 1000 | Total Reward: -13349.57 | Avg: -13.3496
+Ep: 204 | Steps: 1000 | Total Reward: -20288.33 | Avg: -20.2883
+
+--- Updating Brain (Step 124000) ---
+Ep: 205 | Steps: 1000 | Total Reward: -11789.27 | Avg: -11.7893
+Ep: 206 | Steps: 1000 | Total Reward: -12364.48 | Avg: -12.3645
+Ep: 207 | Steps: 1000 | Total Reward: -17438.22 | Avg: -17.4382
+Ep: 208 | Steps: 1000 | Total Reward: -14911.54 | Avg: -14.9115
+
+--- Updating Brain (Step 128000) ---
+Ep: 209 | Steps: 1000 | Total Reward: -12182.57 | Avg: -12.1826
+Step Error: [WinError 10054] An existing connection was forcibly closed by the remote host
+Ep: 210 | Steps: 542 | Total Reward: -6123.59 | Avg: -11.2981
+Connected to Godot at 127.0.0.1:4242
+Ep: 211 | Steps: 1000 | Total Reward: -25572.46 | Avg: -25.5725
+Ep: 212 | Steps: 1000 | Total Reward: -22266.96 | Avg: -22.2670
+
+--- Updating Brain (Step 132000) ---
+Ep: 213 | Steps: 1000 | Total Reward: -36906.11 | Avg: -36.9061
+Ep: 214 | Steps: 1000 | Total Reward: -33347.11 | Avg: -33.3471
+Ep: 215 | Steps: 1000 | Total Reward: -24840.84 | Avg: -24.8408
+Step Error: [WinError 10054] An existing connection was forcibly closed by the remote host
+Ep: 216 | Steps: 689 | Total Reward: -18502.46 | Avg: -26.8541
+Connected to Godot at 127.0.0.1:4242
+Ep: 217 | Steps: 1000 | Total Reward: -44633.18 | Avg: -44.6332
+
+--- Updating Brain (Step 136000) ---
+Ep: 218 | Steps: 1000 | Total Reward: -27212.97 | Avg: -27.2130
+Ep: 219 | Steps: 1000 | Total Reward: -12129.54 | Avg: -12.1295
+Ep: 220 | Steps: 1000 | Total Reward: -17246.13 | Avg: -17.2461
+Ep: 221 | Steps: 1000 | Total Reward: -13138.71 | Avg: -13.1387
+
+--- Updating Brain (Step 140000) ---
+Ep: 222 | Steps: 1000 | Total Reward: -19271.42 | Avg: -19.2714
+Ep: 223 | Steps: 1000 | Total Reward: -13649.99 | Avg: -13.6500
+Ep: 224 | Steps: 966 | Total Reward: -63771.42 | Avg: -66.0160
+Ep: 225 | Steps: 36 | Total Reward: -2673.95 | Avg: -74.2764
+Ep: 226 | Steps: 54 | Total Reward: -310.46 | Avg: -5.7493
+Ep: 227 | Steps: 13 | Total Reward: -157.55 | Avg: -12.1191
+Ep: 228 | Steps: 22 | Total Reward: -192.73 | Avg: -8.7603
+Ep: 229 | Steps: 150 | Total Reward: -1222.62 | Avg: -8.1508
+Ep: 230 | Steps: 62 | Total Reward: -2891.72 | Avg: -46.6406
+Ep: 231 | Steps: 216 | Total Reward: -23092.95 | Avg: -106.9118
+Ep: 232 | Steps: 65 | Total Reward: -5697.78 | Avg: -87.6582
+Ep: 233 | Steps: 32 | Total Reward: -3024.12 | Avg: -94.5038
+Ep: 234 | Steps: 59 | Total Reward: -9231.76 | Avg: -156.4706
+Ep: 235 | Steps: 98 | Total Reward: -1281.65 | Avg: -13.0780
+Ep: 236 | Steps: 15 | Total Reward: -175.83 | Avg: -11.7218
+Ep: 237 | Steps: 33 | Total Reward: -239.09 | Avg: -7.2453
+
+--- Updating Brain (Step 144000) ---
+Ep: 238 | Steps: 1000 | Total Reward: -39095.40 | Avg: -39.0954
+Ep: 239 | Steps: 1000 | Total Reward: -12043.61 | Avg: -12.0436
+Ep: 240 | Steps: 1000 | Total Reward: -13435.00 | Avg: -13.4350
+Ep: 241 | Steps: 1000 | Total Reward: -14197.72 | Avg: -14.1977
+
+--- Updating Brain (Step 148000) ---
+Ep: 242 | Steps: 1000 | Total Reward: -21122.20 | Avg: -21.1222
+Ep: 243 | Steps: 1000 | Total Reward: -17671.63 | Avg: -17.6716
+Ep: 244 | Steps: 1000 | Total Reward: -16457.55 | Avg: -16.4575
+Ep: 245 | Steps: 1000 | Total Reward: -12445.99 | Avg: -12.4460
+
+--- Updating Brain (Step 152000) ---
+Ep: 246 | Steps: 1000 | Total Reward: -27785.46 | Avg: -27.7855
+Ep: 247 | Steps: 1000 | Total Reward: -12242.28 | Avg: -12.2423
+Ep: 248 | Steps: 1000 | Total Reward: -17984.26 | Avg: -17.9843
+Ep: 249 | Steps: 1000 | Total Reward: -17851.61 | Avg: -17.8516
+
+--- Updating Brain (Step 156000) ---
+Ep: 250 | Steps: 1000 | Total Reward: -10969.64 | Avg: -10.9696
+Ep: 251 | Steps: 1000 | Total Reward: -11897.93 | Avg: -11.8979
+Ep: 252 | Steps: 1000 | Total Reward: -13209.12 | Avg: -13.2091
+Ep: 253 | Steps: 1000 | Total Reward: -11918.05 | Avg: -11.9180
+
+--- Updating Brain (Step 160000) ---
+Ep: 254 | Steps: 1000 | Total Reward: -15289.87 | Avg: -15.2899
+Ep: 255 | Steps: 1000 | Total Reward: -19146.59 | Avg: -19.1466
+Ep: 256 | Steps: 1000 | Total Reward: -15570.13 | Avg: -15.5701
+Ep: 257 | Steps: 1000 | Total Reward: -17107.06 | Avg: -17.1071
+
+--- Updating Brain (Step 164000) ---
+Ep: 258 | Steps: 1000 | Total Reward: -16276.82 | Avg: -16.2768
+Ep: 259 | Steps: 1000 | Total Reward: -12606.94 | Avg: -12.6069
+Ep: 260 | Steps: 1000 | Total Reward: -22623.16 | Avg: -22.6232
+Ep: 261 | Steps: 1000 | Total Reward: -17542.11 | Avg: -17.5421
+
+--- Updating Brain (Step 168000) ---
+Ep: 262 | Steps: 1000 | Total Reward: -22801.42 | Avg: -22.8014
+Ep: 263 | Steps: 1000 | Total Reward: -20149.71 | Avg: -20.1497
+Ep: 264 | Steps: 1000 | Total Reward: -20962.29 | Avg: -20.9623
+Ep: 265 | Steps: 1000 | Total Reward: -19994.36 | Avg: -19.9944
+
+--- Updating Brain (Step 172000) ---
+Ep: 266 | Steps: 1000 | Total Reward: -12454.18 | Avg: -12.4542
+Ep: 267 | Steps: 1000 | Total Reward: -12692.82 | Avg: -12.6928
+Ep: 268 | Steps: 1000 | Total Reward: -28952.34 | Avg: -28.9523
+Ep: 269 | Steps: 1000 | Total Reward: -12964.15 | Avg: -12.9641
+
+--- Updating Brain (Step 176000) ---
+Ep: 270 | Steps: 1000 | Total Reward: -18235.49 | Avg: -18.2355
+Ep: 271 | Steps: 1000 | Total Reward: -13671.53 | Avg: -13.6715
+Ep: 272 | Steps: 1000 | Total Reward: -16653.45 | Avg: -16.6535
+Ep: 273 | Steps: 1000 | Total Reward: -14262.96 | Avg: -14.2630
+
+--- Updating Brain (Step 180000) ---
+Ep: 274 | Steps: 1000 | Total Reward: -10785.29 | Avg: -10.7853
+Ep: 275 | Steps: 1000 | Total Reward: -15852.09 | Avg: -15.8521
+Ep: 276 | Steps: 1000 | Total Reward: -19003.11 | Avg: -19.0031
+Ep: 277 | Steps: 1000 | Total Reward: -16097.25 | Avg: -16.0972
+
+--- Updating Brain (Step 184000) ---
+Ep: 278 | Steps: 1000 | Total Reward: -30689.85 | Avg: -30.6899
+Ep: 279 | Steps: 1000 | Total Reward: -19465.14 | Avg: -19.4651
+Ep: 280 | Steps: 1000 | Total Reward: -19716.18 | Avg: -19.7162
+Ep: 281 | Steps: 1000 | Total Reward: -15724.86 | Avg: -15.7249
+
+--- Updating Brain (Step 188000) ---
+Ep: 282 | Steps: 1000 | Total Reward: -35739.58 | Avg: -35.7396
+Ep: 283 | Steps: 1000 | Total Reward: -14103.03 | Avg: -14.1030
+Ep: 284 | Steps: 847 | Total Reward: -25405.10 | Avg: -29.9942
+Ep: 285 | Steps: 18 | Total Reward: -1833.90 | Avg: -101.8834
+Ep: 286 | Steps: 12 | Total Reward: -1434.49 | Avg: -119.5406
+Ep: 287 | Steps: 1000 | Total Reward: -37474.70 | Avg: -37.4747
+
+--- Updating Brain (Step 192000) ---
+Ep: 288 | Steps: 1000 | Total Reward: -19574.42 | Avg: -19.5744
+Ep: 289 | Steps: 1000 | Total Reward: -28495.94 | Avg: -28.4959
+Ep: 290 | Steps: 1000 | Total Reward: -14348.97 | Avg: -14.3490
+Ep: 291 | Steps: 1000 | Total Reward: -12981.99 | Avg: -12.9820
+
+--- Updating Brain (Step 196000) ---
+Ep: 292 | Steps: 513 | Total Reward: -7505.49 | Avg: -14.6306
+Ep: 293 | Steps: 44 | Total Reward: -5777.56 | Avg: -131.3082
+Ep: 294 | Steps: 23 | Total Reward: -3200.18 | Avg: -139.1382
+Ep: 295 | Steps: 7 | Total Reward: -145.55 | Avg: -20.7924
+Ep: 296 | Steps: 906 | Total Reward: -57428.29 | Avg: -63.3866
+Ep: 297 | Steps: 95 | Total Reward: -8623.05 | Avg: -90.7689
+Ep: 298 | Steps: 1000 | Total Reward: -15972.32 | Avg: -15.9723
+Ep: 299 | Steps: 1000 | Total Reward: -11040.96 | Avg: -11.0410
+
+--- Updating Brain (Step 200000) ---
+Ep: 300 | Steps: 1000 | Total Reward: -11229.94 | Avg: -11.2299
+Ep: 301 | Steps: 1000 | Total Reward: -12823.67 | Avg: -12.8237
+Ep: 302 | Steps: 1000 | Total Reward: -13134.97 | Avg: -13.1350
+Ep: 303 | Steps: 1000 | Total Reward: -14682.79 | Avg: -14.6828
+
+--- Updating Brain (Step 204000) ---
+Ep: 304 | Steps: 1000 | Total Reward: -13592.36 | Avg: -13.5924
+Ep: 305 | Steps: 1000 | Total Reward: -12553.52 | Avg: -12.5535
+Ep: 306 | Steps: 1000 | Total Reward: -15481.91 | Avg: -15.4819
+Ep: 307 | Steps: 1000 | Total Reward: -11922.41 | Avg: -11.9224
+
+--- Updating Brain (Step 208000) ---
+Ep: 308 | Steps: 1000 | Total Reward: -12748.67 | Avg: -12.7487
+Ep: 309 | Steps: 1000 | Total Reward: -14694.79 | Avg: -14.6948
+Ep: 310 | Steps: 1000 | Total Reward: -13094.81 | Avg: -13.0948
+Ep: 311 | Steps: 1000 | Total Reward: -16824.85 | Avg: -16.8248
+
+--- Updating Brain (Step 212000) ---
+Ep: 312 | Steps: 1000 | Total Reward: -13090.79 | Avg: -13.0908
+Ep: 313 | Steps: 1000 | Total Reward: -12478.38 | Avg: -12.4784
+Ep: 314 | Steps: 1000 | Total Reward: -15242.79 | Avg: -15.2428
+Ep: 315 | Steps: 1000 | Total Reward: -15711.50 | Avg: -15.7115
+
+--- Updating Brain (Step 216000) ---
+Ep: 316 | Steps: 1000 | Total Reward: -15992.05 | Avg: -15.9920
+Ep: 317 | Steps: 1000 | Total Reward: -13752.24 | Avg: -13.7522
+Ep: 318 | Steps: 741 | Total Reward: -17620.80 | Avg: -23.7798
+Ep: 319 | Steps: 1000 | Total Reward: -22059.28 | Avg: -22.0593
+Ep: 320 | Steps: 464 | Total Reward: -7913.46 | Avg: -17.0549
+Ep: 321 | Steps: 12 | Total Reward: -1594.88 | Avg: -132.9068
+
+--- Updating Brain (Step 220000) ---
+Ep: 322 | Steps: 1000 | Total Reward: -24036.25 | Avg: -24.0363
+Ep: 323 | Steps: 1000 | Total Reward: -17428.37 | Avg: -17.4284
+Ep: 324 | Steps: 558 | Total Reward: -12171.13 | Avg: -21.8121
+Ep: 325 | Steps: 17 | Total Reward: -2645.09 | Avg: -155.5933
+Ep: 326 | Steps: 206 | Total Reward: -15526.75 | Avg: -75.3726
+Ep: 327 | Steps: 15 | Total Reward: -2081.63 | Avg: -138.7754
+Ep: 328 | Steps: 1000 | Total Reward: -38757.08 | Avg: -38.7571
+
+--- Updating Brain (Step 224000) ---
+Ep: 329 | Steps: 1000 | Total Reward: -10284.72 | Avg: -10.2847
+Ep: 330 | Steps: 1000 | Total Reward: -11852.04 | Avg: -11.8520
+Ep: 331 | Steps: 1000 | Total Reward: -14168.14 | Avg: -14.1681
+Ep: 332 | Steps: 1000 | Total Reward: -15121.71 | Avg: -15.1217
+
+--- Updating Brain (Step 228000) ---
+Ep: 333 | Steps: 1000 | Total Reward: -14626.41 | Avg: -14.6264
+Ep: 334 | Steps: 1000 | Total Reward: -14587.76 | Avg: -14.5878
+Ep: 335 | Steps: 1000 | Total Reward: -16924.23 | Avg: -16.9242
+Ep: 336 | Steps: 1000 | Total Reward: -12798.48 | Avg: -12.7985
+
+--- Updating Brain (Step 232000) ---
+Ep: 337 | Steps: 1000 | Total Reward: -15746.00 | Avg: -15.7460
+Ep: 338 | Steps: 1000 | Total Reward: -10987.00 | Avg: -10.9870
+Ep: 339 | Steps: 1000 | Total Reward: -13163.50 | Avg: -13.1635
+Ep: 340 | Steps: 1000 | Total Reward: -21438.58 | Avg: -21.4386
+Ep: 341 | Steps: 304 | Total Reward: -8579.24 | Avg: -28.2212
+Ep: 342 | Steps: 18 | Total Reward: -2195.94 | Avg: -121.9967
+Ep: 343 | Steps: 32 | Total Reward: -1220.85 | Avg: -38.1515
+Ep: 344 | Steps: 50 | Total Reward: -3967.73 | Avg: -79.3545
+
+--- Updating Brain (Step 236000) ---
+Ep: 345 | Steps: 1000 | Total Reward: -22291.81 | Avg: -22.2918
+Ep: 346 | Steps: 1000 | Total Reward: -10739.55 | Avg: -10.7396
+Ep: 347 | Steps: 1000 | Total Reward: -18291.94 | Avg: -18.2919
+Ep: 348 | Steps: 1000 | Total Reward: -13293.88 | Avg: -13.2939
+
+--- Updating Brain (Step 240000) ---
+Ep: 349 | Steps: 1000 | Total Reward: -13681.35 | Avg: -13.6813
+Ep: 350 | Steps: 1000 | Total Reward: -13417.08 | Avg: -13.4171
+Ep: 351 | Steps: 1000 | Total Reward: -12080.01 | Avg: -12.0800
+Ep: 352 | Steps: 1000 | Total Reward: -11708.75 | Avg: -11.7087
+
+--- Updating Brain (Step 244000) ---
+Ep: 353 | Steps: 1000 | Total Reward: -11886.48 | Avg: -11.8865
+Ep: 354 | Steps: 1000 | Total Reward: -10317.97 | Avg: -10.3180
+Ep: 355 | Steps: 1000 | Total Reward: -13163.74 | Avg: -13.1637
+Ep: 356 | Steps: 1000 | Total Reward: -10593.56 | Avg: -10.5936
+
+--- Updating Brain (Step 248000) ---
+Ep: 357 | Steps: 1000 | Total Reward: -12357.02 | Avg: -12.3570
+Ep: 358 | Steps: 1000 | Total Reward: -9533.84 | Avg: -9.5338
+Ep: 359 | Steps: 1000 | Total Reward: -10855.31 | Avg: -10.8553
+Ep: 360 | Steps: 1000 | Total Reward: -12517.17 | Avg: -12.5172
+
+--- Updating Brain (Step 252000) ---
+Ep: 361 | Steps: 1000 | Total Reward: -12328.27 | Avg: -12.3283
+Ep: 362 | Steps: 1000 | Total Reward: -11855.04 | Avg: -11.8550
+Ep: 363 | Steps: 1000 | Total Reward: -12610.03 | Avg: -12.6100
+Ep: 364 | Steps: 135 | Total Reward: -4678.16 | Avg: -34.6530
+Ep: 365 | Steps: 14 | Total Reward: -2250.84 | Avg: -160.7745
+Ep: 366 | Steps: 10 | Total Reward: -1108.82 | Avg: -110.8823
+Ep: 367 | Steps: 1000 | Total Reward: -21495.15 | Avg: -21.4951
+
+--- Updating Brain (Step 256000) ---
+Ep: 368 | Steps: 1000 | Total Reward: -11692.57 | Avg: -11.6926
+Ep: 369 | Steps: 1000 | Total Reward: -12144.80 | Avg: -12.1448
+Ep: 370 | Steps: 1000 | Total Reward: -17997.08 | Avg: -17.9971
+Ep: 371 | Steps: 1000 | Total Reward: -13267.07 | Avg: -13.2671
+
+--- Updating Brain (Step 260000) ---
+Ep: 372 | Steps: 1000 | Total Reward: -11747.01 | Avg: -11.7470
+Ep: 373 | Steps: 1000 | Total Reward: -13817.59 | Avg: -13.8176
+Ep: 374 | Steps: 1000 | Total Reward: -17038.74 | Avg: -17.0387
+Ep: 375 | Steps: 1000 | Total Reward: -17735.79 | Avg: -17.7358
+
+--- Updating Brain (Step 264000) ---
+Ep: 376 | Steps: 1000 | Total Reward: -12519.50 | Avg: -12.5195
+Ep: 377 | Steps: 1000 | Total Reward: -10160.52 | Avg: -10.1605
+Ep: 378 | Steps: 1000 | Total Reward: -11335.22 | Avg: -11.3352
+Ep: 379 | Steps: 1000 | Total Reward: -11376.03 | Avg: -11.3760
+
+--- Updating Brain (Step 268000) ---
+Ep: 380 | Steps: 1000 | Total Reward: -11504.57 | Avg: -11.5046
+Ep: 381 | Steps: 1000 | Total Reward: -12509.71 | Avg: -12.5097
+Ep: 382 | Steps: 1000 | Total Reward: -11288.95 | Avg: -11.2890
+Ep: 383 | Steps: 1000 | Total Reward: -12717.51 | Avg: -12.7175
+
+--- Updating Brain (Step 272000) ---
+Ep: 384 | Steps: 1000 | Total Reward: -11226.71 | Avg: -11.2267
+Ep: 385 | Steps: 1000 | Total Reward: -13057.57 | Avg: -13.0576
+Ep: 386 | Steps: 1000 | Total Reward: -10425.44 | Avg: -10.4254
+Ep: 387 | Steps: 1000 | Total Reward: -17926.71 | Avg: -17.9267
+
+--- Updating Brain (Step 276000) ---
+Ep: 388 | Steps: 1000 | Total Reward: -15233.58 | Avg: -15.2336
+Ep: 389 | Steps: 1000 | Total Reward: -14419.35 | Avg: -14.4194
+Ep: 390 | Steps: 1000 | Total Reward: -11860.50 | Avg: -11.8605
+Ep: 391 | Steps: 1000 | Total Reward: -18991.71 | Avg: -18.9917
+
+--- Updating Brain (Step 280000) ---
+Ep: 392 | Steps: 1000 | Total Reward: -16866.22 | Avg: -16.8662
+Ep: 393 | Steps: 1000 | Total Reward: -16212.74 | Avg: -16.2127
+Ep: 394 | Steps: 1000 | Total Reward: -10485.18 | Avg: -10.4852
+Ep: 395 | Steps: 1000 | Total Reward: -10247.31 | Avg: -10.2473
+
+--- Updating Brain (Step 284000) ---
+Ep: 396 | Steps: 1000 | Total Reward: -14370.44 | Avg: -14.3704
+Ep: 397 | Steps: 1000 | Total Reward: -15915.09 | Avg: -15.9151
+Ep: 398 | Steps: 1000 | Total Reward: -14813.96 | Avg: -14.8140
+Ep: 399 | Steps: 1000 | Total Reward: -13601.40 | Avg: -13.6014
+
+--- Updating Brain (Step 288000) ---
+Ep: 400 | Steps: 1000 | Total Reward: -13259.12 | Avg: -13.2591
+Ep: 401 | Steps: 1000 | Total Reward: -14237.29 | Avg: -14.2373
+Ep: 402 | Steps: 1000 | Total Reward: -12570.01 | Avg: -12.5700
+Ep: 403 | Steps: 1000 | Total Reward: -15302.45 | Avg: -15.3024
+
+--- Updating Brain (Step 292000) ---
+Ep: 404 | Steps: 1000 | Total Reward: -17790.04 | Avg: -17.7900
+Ep: 405 | Steps: 1000 | Total Reward: -10689.00 | Avg: -10.6890
+Ep: 406 | Steps: 1000 | Total Reward: -10957.92 | Avg: -10.9579
+Ep: 407 | Steps: 1000 | Total Reward: -13106.90 | Avg: -13.1069
+
+--- Updating Brain (Step 296000) ---
+Ep: 408 | Steps: 1000 | Total Reward: -14402.82 | Avg: -14.4028
+Ep: 409 | Steps: 1000 | Total Reward: -19160.64 | Avg: -19.1606
+Ep: 410 | Steps: 1000 | Total Reward: -14264.67 | Avg: -14.2647
+Ep: 411 | Steps: 1000 | Total Reward: -11451.41 | Avg: -11.4514
+
+--- Updating Brain (Step 300000) ---
+Ep: 412 | Steps: 1000 | Total Reward: -12959.18 | Avg: -12.9592
+Ep: 413 | Steps: 1000 | Total Reward: -10394.48 | Avg: -10.3945
+Ep: 414 | Steps: 1000 | Total Reward: -12260.73 | Avg: -12.2607
+Ep: 415 | Steps: 1000 | Total Reward: -11389.97 | Avg: -11.3900
+
+--- Updating Brain (Step 304000) ---
+Ep: 416 | Steps: 1000 | Total Reward: -13694.59 | Avg: -13.6946
+Ep: 417 | Steps: 1000 | Total Reward: -9973.13 | Avg: -9.9731
+Ep: 418 | Steps: 1000 | Total Reward: -10987.38 | Avg: -10.9874
+Ep: 419 | Steps: 1000 | Total Reward: -13868.82 | Avg: -13.8688
+
+--- Updating Brain (Step 308000) ---
+Ep: 420 | Steps: 1000 | Total Reward: -13665.12 | Avg: -13.6651
+Ep: 421 | Steps: 1000 | Total Reward: -11773.16 | Avg: -11.7732
+Ep: 422 | Steps: 1000 | Total Reward: -20446.68 | Avg: -20.4467
+Ep: 423 | Steps: 1000 | Total Reward: -9188.48 | Avg: -9.1885
+
+--- Updating Brain (Step 312000) ---
+Ep: 424 | Steps: 1000 | Total Reward: -13604.92 | Avg: -13.6049
+Ep: 425 | Steps: 1000 | Total Reward: -12459.37 | Avg: -12.4594
+Ep: 426 | Steps: 1000 | Total Reward: -10415.57 | Avg: -10.4156
+Ep: 427 | Steps: 1000 | Total Reward: -13085.57 | Avg: -13.0856
+
+--- Updating Brain (Step 316000) ---
+Ep: 428 | Steps: 1000 | Total Reward: -9682.98 | Avg: -9.6830
+Ep: 429 | Steps: 1000 | Total Reward: -10284.54 | Avg: -10.2845
+Ep: 430 | Steps: 1000 | Total Reward: -8869.03 | Avg: -8.8690
+Ep: 431 | Steps: 1000 | Total Reward: -10880.81 | Avg: -10.8808
+
+--- Updating Brain (Step 320000) ---
+Ep: 432 | Steps: 1000 | Total Reward: -17291.83 | Avg: -17.2918
+Ep: 433 | Steps: 1000 | Total Reward: -12029.23 | Avg: -12.0292
+Ep: 434 | Steps: 1000 | Total Reward: -11922.73 | Avg: -11.9227
+Ep: 435 | Steps: 1000 | Total Reward: -9723.17 | Avg: -9.7232
+
+--- Updating Brain (Step 324000) ---
+Ep: 436 | Steps: 1000 | Total Reward: -10394.20 | Avg: -10.3942
+Ep: 437 | Steps: 1000 | Total Reward: -10577.49 | Avg: -10.5775
+Ep: 438 | Steps: 1000 | Total Reward: -10717.44 | Avg: -10.7174
+Ep: 439 | Steps: 1000 | Total Reward: -11755.98 | Avg: -11.7560
+
+--- Updating Brain (Step 328000) ---
+Ep: 440 | Steps: 1000 | Total Reward: -10116.74 | Avg: -10.1167
+Ep: 441 | Steps: 1000 | Total Reward: -10604.41 | Avg: -10.6044
+Ep: 442 | Steps: 1000 | Total Reward: -11902.86 | Avg: -11.9029
+Ep: 443 | Steps: 1000 | Total Reward: -10940.03 | Avg: -10.9400
+
+--- Updating Brain (Step 332000) ---
+Ep: 444 | Steps: 1000 | Total Reward: -11729.66 | Avg: -11.7297
+Ep: 445 | Steps: 1000 | Total Reward: -9669.84 | Avg: -9.6698
+Ep: 446 | Steps: 1000 | Total Reward: -11932.60 | Avg: -11.9326
+Ep: 447 | Steps: 1000 | Total Reward: -11025.10 | Avg: -11.0251
+
+--- Updating Brain (Step 336000) ---
+Ep: 448 | Steps: 1000 | Total Reward: -9416.01 | Avg: -9.4160
+Ep: 449 | Steps: 1000 | Total Reward: -10166.49 | Avg: -10.1665
+Ep: 450 | Steps: 1000 | Total Reward: -10030.61 | Avg: -10.0306
+Ep: 451 | Steps: 1000 | Total Reward: -8937.17 | Avg: -8.9372
+
+--- Updating Brain (Step 340000) ---
+Ep: 452 | Steps: 1000 | Total Reward: -14001.48 | Avg: -14.0015
+Ep: 453 | Steps: 1000 | Total Reward: -8841.45 | Avg: -8.8414
+Ep: 454 | Steps: 1000 | Total Reward: -8330.58 | Avg: -8.3306
+Ep: 455 | Steps: 1000 | Total Reward: -11045.07 | Avg: -11.0451
+
+--- Updating Brain (Step 344000) ---
+Ep: 456 | Steps: 1000 | Total Reward: -12662.69 | Avg: -12.6627
+Ep: 457 | Steps: 1000 | Total Reward: -9609.02 | Avg: -9.6090
+Ep: 458 | Steps: 1000 | Total Reward: -9901.60 | Avg: -9.9016
+Ep: 459 | Steps: 1000 | Total Reward: -11981.74 | Avg: -11.9817
+
+--- Updating Brain (Step 348000) ---
+Ep: 460 | Steps: 1000 | Total Reward: -9863.47 | Avg: -9.8635
+Ep: 461 | Steps: 1000 | Total Reward: -9753.41 | Avg: -9.7534
+Ep: 462 | Steps: 1000 | Total Reward: -9944.14 | Avg: -9.9441
+Ep: 463 | Steps: 1000 | Total Reward: -9376.74 | Avg: -9.3767
+
+--- Updating Brain (Step 352000) ---
+Ep: 464 | Steps: 1000 | Total Reward: -8944.09 | Avg: -8.9441
+Ep: 465 | Steps: 1000 | Total Reward: -8250.42 | Avg: -8.2504
+Ep: 466 | Steps: 1000 | Total Reward: -11083.96 | Avg: -11.0840
+Ep: 467 | Steps: 1000 | Total Reward: -10612.19 | Avg: -10.6122
+
+--- Updating Brain (Step 356000) ---
+Ep: 468 | Steps: 1000 | Total Reward: -12086.99 | Avg: -12.0870
+Ep: 469 | Steps: 1000 | Total Reward: -10522.76 | Avg: -10.5228
+Ep: 470 | Steps: 1000 | Total Reward: -8201.20 | Avg: -8.2012
+Ep: 471 | Steps: 1000 | Total Reward: -14619.26 | Avg: -14.6193
+
+--- Updating Brain (Step 360000) ---
+Ep: 472 | Steps: 1000 | Total Reward: -12192.43 | Avg: -12.1924
+Ep: 473 | Steps: 1000 | Total Reward: -9280.21 | Avg: -9.2802
+Ep: 474 | Steps: 1000 | Total Reward: -10223.26 | Avg: -10.2233
+Ep: 475 | Steps: 1000 | Total Reward: -9690.00 | Avg: -9.6900
+
+--- Updating Brain (Step 364000) ---
+Ep: 476 | Steps: 1000 | Total Reward: -10447.83 | Avg: -10.4478
+Ep: 477 | Steps: 1000 | Total Reward: -12503.82 | Avg: -12.5038
+Ep: 478 | Steps: 1000 | Total Reward: -10840.25 | Avg: -10.8402
+Ep: 479 | Steps: 1000 | Total Reward: -10107.50 | Avg: -10.1075
+
+--- Updating Brain (Step 368000) ---
+Ep: 480 | Steps: 1000 | Total Reward: -10106.35 | Avg: -10.1064
+Ep: 481 | Steps: 1000 | Total Reward: -10769.95 | Avg: -10.7700
+Ep: 482 | Steps: 1000 | Total Reward: -9834.11 | Avg: -9.8341
+Ep: 483 | Steps: 1000 | Total Reward: -11146.75 | Avg: -11.1467
+
+--- Updating Brain (Step 372000) ---
+Ep: 484 | Steps: 1000 | Total Reward: -13705.36 | Avg: -13.7054
+Ep: 485 | Steps: 1000 | Total Reward: -8929.04 | Avg: -8.9290
+Ep: 486 | Steps: 1000 | Total Reward: -9643.43 | Avg: -9.6434
+Ep: 487 | Steps: 1000 | Total Reward: -8982.15 | Avg: -8.9822
+
+--- Updating Brain (Step 376000) ---
+Ep: 488 | Steps: 1000 | Total Reward: -9985.13 | Avg: -9.9851
+Ep: 489 | Steps: 1000 | Total Reward: -10503.50 | Avg: -10.5035
+Ep: 490 | Steps: 1000 | Total Reward: -10686.45 | Avg: -10.6865
+Ep: 491 | Steps: 1000 | Total Reward: -8833.99 | Avg: -8.8340
+
+--- Updating Brain (Step 380000) ---
+Ep: 492 | Steps: 1000 | Total Reward: -11552.17 | Avg: -11.5522
+Ep: 493 | Steps: 1000 | Total Reward: -8540.37 | Avg: -8.5404
+Ep: 494 | Steps: 1000 | Total Reward: -9421.18 | Avg: -9.4212
+Ep: 495 | Steps: 1000 | Total Reward: -11207.65 | Avg: -11.2076
+
+--- Updating Brain (Step 384000) ---
+Ep: 496 | Steps: 1000 | Total Reward: -9554.47 | Avg: -9.5545
+Ep: 497 | Steps: 1000 | Total Reward: -10125.38 | Avg: -10.1254
+Ep: 498 | Steps: 1000 | Total Reward: -9912.91 | Avg: -9.9129
+Ep: 499 | Steps: 1000 | Total Reward: -8072.44 | Avg: -8.0724
+
+--- Updating Brain (Step 388000) ---
+Ep: 500 | Steps: 1000 | Total Reward: -9772.29 | Avg: -9.7723
+Ep: 501 | Steps: 1000 | Total Reward: -9631.09 | Avg: -9.6311
+Ep: 502 | Steps: 1000 | Total Reward: -12539.46 | Avg: -12.5395
+Ep: 503 | Steps: 1000 | Total Reward: -9476.08 | Avg: -9.4761
+
+--- Updating Brain (Step 392000) ---
+Ep: 504 | Steps: 1000 | Total Reward: -11106.58 | Avg: -11.1066
+Ep: 505 | Steps: 1000 | Total Reward: -12524.90 | Avg: -12.5249
+Ep: 506 | Steps: 1000 | Total Reward: -12545.49 | Avg: -12.5455
+Ep: 507 | Steps: 1000 | Total Reward: -9814.23 | Avg: -9.8142
+
+--- Updating Brain (Step 396000) ---
+Ep: 508 | Steps: 1000 | Total Reward: -23543.76 | Avg: -23.5438
+Ep: 509 | Steps: 1000 | Total Reward: -12050.09 | Avg: -12.0501
+Ep: 510 | Steps: 1000 | Total Reward: -9557.71 | Avg: -9.5577
+Ep: 511 | Steps: 1000 | Total Reward: -11394.40 | Avg: -11.3944
+
+--- Updating Brain (Step 400000) ---
+Ep: 512 | Steps: 1000 | Total Reward: -10979.90 | Avg: -10.9799
+Ep: 513 | Steps: 1000 | Total Reward: -10393.88 | Avg: -10.3939
+Ep: 514 | Steps: 1000 | Total Reward: -12454.78 | Avg: -12.4548
+Ep: 515 | Steps: 1000 | Total Reward: -12143.38 | Avg: -12.1434
+
+--- Updating Brain (Step 404000) ---
+Ep: 516 | Steps: 1000 | Total Reward: -10563.73 | Avg: -10.5637
+Ep: 517 | Steps: 1000 | Total Reward: -9482.60 | Avg: -9.4826
+Ep: 518 | Steps: 1000 | Total Reward: -8994.81 | Avg: -8.9948
+Ep: 519 | Steps: 1000 | Total Reward: -10832.65 | Avg: -10.8326
+
+--- Updating Brain (Step 408000) ---
+Ep: 520 | Steps: 1000 | Total Reward: -10465.88 | Avg: -10.4659
+Ep: 521 | Steps: 1000 | Total Reward: -10651.14 | Avg: -10.6511
+Ep: 522 | Steps: 1000 | Total Reward: -16406.74 | Avg: -16.4067
+Ep: 523 | Steps: 1000 | Total Reward: -10120.30 | Avg: -10.1203
+
+--- Updating Brain (Step 412000) ---
+Ep: 524 | Steps: 1000 | Total Reward: -7975.62 | Avg: -7.9756
+Ep: 525 | Steps: 1000 | Total Reward: -10172.45 | Avg: -10.1725
+Ep: 526 | Steps: 1000 | Total Reward: -9499.03 | Avg: -9.4990
+Ep: 527 | Steps: 1000 | Total Reward: -9249.29 | Avg: -9.2493
+
+--- Updating Brain (Step 416000) ---
+Ep: 528 | Steps: 1000 | Total Reward: -10733.70 | Avg: -10.7337
+Ep: 529 | Steps: 1000 | Total Reward: -11585.84 | Avg: -11.5858
+Ep: 530 | Steps: 1000 | Total Reward: -10501.37 | Avg: -10.5014
+Ep: 531 | Steps: 1000 | Total Reward: -8934.81 | Avg: -8.9348
+
+Ep: 529 | Steps: 1000 | Total Reward: -11585.84 | Avg: -11.5858
+Ep: 530 | Steps: 1000 | Total Reward: -10501.37 | Avg: -10.5014
+Ep: 531 | Steps: 1000 | Total Reward: -8934.81 | Avg: -8.9348
+
+Ep: 530 | Steps: 1000 | Total Reward: -10501.37 | Avg: -10.5014
+Ep: 531 | Steps: 1000 | Total Reward: -8934.81 | Avg: -8.9348
+
+--- Updating Brain (Step 420000) ---
+Ep: 531 | Steps: 1000 | Total Reward: -8934.81 | Avg: -8.9348
+
+--- Updating Brain (Step 420000) ---
+--- Updating Brain (Step 420000) ---
+Ep: 532 | Steps: 1000 | Total Reward: -11842.94 | Avg: -11.8429
+Ep: 533 | Steps: 1000 | Total Reward: -11104.35 | Avg: -11.1043
+Ep: 534 | Steps: 1000 | Total Reward: -12460.74 | Avg: -12.4607
+Ep: 535 | Steps: 1000 | Total Reward: -14633.29 | Avg: -14.6333
+Ep: 532 | Steps: 1000 | Total Reward: -11842.94 | Avg: -11.8429
+Ep: 533 | Steps: 1000 | Total Reward: -11104.35 | Avg: -11.1043
+Ep: 534 | Steps: 1000 | Total Reward: -12460.74 | Avg: -12.4607
+Ep: 535 | Steps: 1000 | Total Reward: -14633.29 | Avg: -14.6333
+
+Ep: 533 | Steps: 1000 | Total Reward: -11104.35 | Avg: -11.1043
+Ep: 534 | Steps: 1000 | Total Reward: -12460.74 | Avg: -12.4607
+Ep: 535 | Steps: 1000 | Total Reward: -14633.29 | Avg: -14.6333
+
+Ep: 535 | Steps: 1000 | Total Reward: -14633.29 | Avg: -14.6333
